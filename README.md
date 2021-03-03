@@ -1,9 +1,7 @@
 # ChIP-Seq_Cut_and_Tag_Cut_and_Run_scripts
  Scripts to analyze ChIP-Seq including Cut&Tag and Cut&Run data
-
 ##### cut-and-tag-analysis.sh
 ###### Functions:
-
 ```bash
 # do_fastqc no
 # do_trimmomatic
@@ -24,7 +22,11 @@
 # do_HOMER_motif_finding	
 # do_function_MACS_peak_calling
 ```
-
+***
+###### Please modify any of these functions accordingly 
+* do_bowtie2_alignment
++ current parameters are suitable for cut&tag/cut&run data
++ adjust parameters for ChIP-Seq data accordingly
 
 
 
